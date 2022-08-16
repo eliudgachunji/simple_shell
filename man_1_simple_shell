@@ -1,0 +1,66 @@
+.\" Manpage for the simple_shell project.
+
+
+
+
+
+.\" Contact https:https://github.com/Mamushie/simple_shell for more details.
+
+
+
+
+
+.TH man 1 "01 Nov 2021" "1.0" "simple_shell man page"
+
+
+
+
+
+.SH NAME
+
+Simple Shell
+
+
+
+
+
+.SH SYNOPSIS
+
+This simple shell interprets and executes commands as read from the standard input.
+
+
+
+
+
+.SH DESCRIPTION
+
+The simple shell is a program that takes commands from the keyboard and gives them to the operating system to execute. It incorporates many features and generally executes other commands. It prompts before each command, inspects arguments, execute them and handles possible errors. The simple shell reads input in terms of lines from a file and breaks it up into words at whitespaces.
+
+
+
+
+
+.SH COMPILATION
+
+All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
+
+
+.SH SEE ALSO
+
+manpage using sh(1)
+
+
+
+
+
+.SH BUGS
+
+No known bugs. If you find any bugs, please report to the contact above.
+
+
+
+
+
+.SH AUTHORS
+Njoki Kiruki and Eliud Gachunji
